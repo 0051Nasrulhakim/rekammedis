@@ -1,0 +1,119 @@
+.user {
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+.user .dokterPetuags {
+  display: flex !important;
+  font-weight: 800;
+}
+.user .dokterPetuags .text {
+  min-width: 116px;
+  max-width: 116px;
+}
+.user .dokterPetuags .semicolon {
+  width: 1%;
+  text-align: center;
+}
+
+.split2 {
+  display: flex;
+}
+.split2 .text-judul {
+  min-width: 120px;
+  max-width: 120px;
+}
+.split2 .semicolon {
+  width: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.split2_custom {
+  display: flex;
+  flex: wrap;
+}
+.split2_custom .text-judul {
+  min-width: 90px;
+  max-width: 90px;
+  text-wrap: none;
+  white-space: nowrap;
+}
+.split2_custom .semicolon {
+  width: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.split2-50 {
+  display: flex;
+  width: 100%;
+}
+.split2-50 .left {
+  width: 50%;
+}
+.split2-50 .right {
+  width: 50%;
+}
+
+.container-custom {
+  font-size: 10pt;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  border: 1px solid;
+}
+.container-custom .menu {
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 18%;
+  border: 1px solid;
+}
+.container-custom .menu .judul {
+  text-align: center;
+}
+.container-custom .menu .sectionDataDiri {
+  text-align: left;
+}
+.container-custom .menu .sectionDataDiri .judul {
+  text-align: center;
+}
+.container-custom .menu .list {
+  text-align: left;
+}
+.container-custom .wrapper {
+  margin-left: 2%;
+  width: 85%;
+  font-size: 10pt;
+}
+.container-custom .wrapper .list .judul {
+  padding-left: 1%;
+  padding-right: 1%;
+  font-weight: 600;
+  display: flex;
+  background-color: #50589C;
+  color: white;
+}
+.container-custom .wrapper .list .riweayatSoap .wrapper {
+  width: 98%;
+  margin-left: 0.9%;
+}
+.container-custom .wrapper .list .triaseIgd .wrapper {
+  width: 98%;
+  margin-left: 0.9%;
+}
+.container-custom .wrapper .list .awalMedisIgd .wrapper {
+  width: 98%;
+  margin-left: 0.9%;
+}
+.container-custom .wrapper .list .awalMedisIgd .wrapper .text {
+  width: 100%;
+}
+.container-custom .wrapper .list .awalKepIgd .wrapper {
+  width: 98%;
+  margin-left: 0.9%;
+}
+.container-custom .wrapper .list .awalMedisUmum .wrapper {
+  width: 98%;
+  margin-left: 0.9%;
+}/*# sourceMappingURL=style.css.map */
