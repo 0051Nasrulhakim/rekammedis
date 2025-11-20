@@ -21,6 +21,7 @@
 .split2 .text-judul {
   min-width: 120px;
   max-width: 120px;
+  text-wrap: wrap;
 }
 .split2 .semicolon {
   width: 10px;
@@ -34,9 +35,8 @@
 }
 .split2_custom .text-judul {
   min-width: 90px;
-  max-width: 90px;
+  max-width: 1500px;
   text-wrap: none;
-  white-space: nowrap;
 }
 .split2_custom .semicolon {
   width: 10px;
@@ -114,6 +114,14 @@
   margin-left: 0.9%;
 }
 .container-custom .wrapper .list .awalMedisUmum .wrapper {
+  width: 98%;
+  margin-left: 0.9%;
+}
+.container-custom .wrapper .list .resumeRajal .wrapper {
+  width: 98%;
+  margin-left: 0.9%;
+}
+.container-custom .wrapper .list .keperawatanRalanUmum .wrapper {
   width: 98%;
   margin-left: 0.9%;
 }/*# sourceMappingURL=style.css.map */

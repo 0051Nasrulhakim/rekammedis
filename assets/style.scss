@@ -22,7 +22,7 @@
     .text-judul {
         min-width: 120px;
         max-width: 120px;
-        // text-wrap: none;
+        text-wrap: wrap;
         // white-space: nowrap;
     }
 
@@ -40,9 +40,9 @@
 
     .text-judul {
         min-width: 90px;
-        max-width: 90px;
+        max-width: 1500px;
         text-wrap: none;
-        white-space: nowrap;
+        // white-space: nowrap;
     }
 
     .semicolon {
@@ -156,6 +156,23 @@
                     margin-left: 0.9%;
                 }
             }
+            .resumeRajal {
+                // border: 1px solid !important;
+                .wrapper {
+                    
+                    width: 98%;
+                    margin-left: 0.9%;
+                }
+            }
+            .keperawatanRalanUmum {
+                // border: 1px solid !important;
+                .wrapper {
+                    
+                    width: 98%;
+                    margin-left: 0.9%;
+                }
+            }
+            
 
             .pengkajianRestrain {}
 
