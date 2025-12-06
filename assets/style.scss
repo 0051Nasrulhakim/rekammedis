@@ -5,8 +5,8 @@
         display: flex !important;
         font-weight: 800;
         .text {
-            min-width: 116px;
-            max-width: 116px;
+            min-width: 128px;
+            max-width: 128px;
         }
 
         .semicolon {
@@ -16,12 +16,19 @@
     }
 }
 
+.semicolon{
+    text-align: center !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
 .split2 {
     display: flex;
+    min-width: 100px;
 
     .text-judul {
-        min-width: 120px;
-        max-width: 120px;
+        min-width: 130px;
+        max-width: 130px;
         text-wrap: wrap;
         // white-space: nowrap;
     }
@@ -36,11 +43,11 @@
 
 .split2_custom {
     display: flex;
-    flex: wrap;
+    flex: wrap !important;
 
     .text-judul {
         min-width: 90px;
-        max-width: 1500px;
+        max-width: 150px !important;
         text-wrap: none;
         // white-space: nowrap;
     }
@@ -58,11 +65,13 @@
     width: 100%;
 
     .left {
-        width: 50%
+        width: 50%;
+        min-width: 50%;
     }
 
     .right {
         width: 50%;
+        min-width: 50%;
     }
 }
 
@@ -164,8 +173,23 @@
                     margin-left: 0.9%;
                 }
             }
+
             .keperawatanRalanUmum {
                 // border: 1px solid !important;
+                .wrapper {
+                    
+                    width: 98%;
+                    margin-left: 0.9%;
+                }
+            }
+            .catatanAdime {
+                .wrapper {
+                    
+                    width: 98%;
+                    margin-left: 0.9%;
+                }
+            }
+            .permintaanDiet {
                 .wrapper {
                     
                     width: 98%;

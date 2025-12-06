@@ -6,9 +6,7 @@
         <div class="semicolon">
             :
         </div>
-        <div class="namaUser">
-            dr. Nasrul Hakim
-        </div>
+        <div class="namaUser" id="userPengisiAwalKepralan"></div>
     </div>
 
     <div class="dokterPetuags">
@@ -18,20 +16,7 @@
         <div class="semicolon">
             :
         </div>
-        <div class="namaUser">
-            19/09/2025 19:00:00
-        </div>
-    </div>
-    <div class="dokterPetuags" style="margin-bottom: 1%;">
-        <div class="text">
-            Tanggal keluar
-        </div>
-        <div class="semicolon">
-            :
-        </div>
-        <div class="namaUser">
-            19/09/2025 19:00:00
-        </div>
+        <div class="namaUser" id="jamPengisianAwalKepralan"></div>
     </div>
 </div>
 
@@ -41,8 +26,12 @@
         <div class="split2">
             <div class="text-judul"><b>Keadaan Umum</b></div>
             <div class="semicolon">:</div>
-            <div class="text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque totam quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum reiciendis, accusamus dolor ipsum velit, quaerat unde labore pariatur et quasi similique repudiandae fuga voluptas impedit quisquam est dolorem deleniti! Tempora ipsum mollitia cupiditate, officiis ea modi eos, excepturi voluptate sed error provident quam vero numquam incidunt, quis reprehenderit rerum!
+            <div class="text" style="display:flex; gap:10px;">
+                <div class="td" style="border-right: 1px solid; padding-right: 10px;"> Tekanan Darah : <span id="tdAwalKepRalan"></span> </div>
+                <div class="td" style="border-right: 1px solid; padding-right: 10px;"> Nadi : <span id="nadiAwalKepRalan"></span></div>
+                <div class="td" style="border-right: 1px solid; padding-right: 10px;"> RR : <span id="rrAwalKepRalan"></span></div>
+                <div class="td" style="border-right: 1px solid; padding-right: 10px;"> Suhu : <span id="suhuAwalKepRalan"></span></div>
+                <div class="td"> GCS : <span id="gcsAwalKepRalan"></span></div>
             </div>
         </div>
     </div>
@@ -51,9 +40,7 @@
         <div class="split2">
             <div class="text-judul"><b>Status Nutrisi</b></div>
             <div class="semicolon">:</div>
-            <div class="text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque totam quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum reiciendis, accusamus dolor ipsum velit, quaerat unde labore pariatur et quasi similique repudiandae fuga voluptas impedit quisquam est dolorem deleniti! Tempora ipsum mollitia cupiditate, officiis ea modi eos, excepturi voluptate sed error provident quam vero numquam incidunt, quis reprehenderit rerum!
-            </div>
+            <div class="text" id="statusNutrisiAwalKepralan"></div>
         </div>
     </div>
 
@@ -61,49 +48,39 @@
         <div class="split2">
             <div class="text-judul"><b>Keluhan Utama</b></div>
             <div class="semicolon">:</div>
-            <div class="text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque totam quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum reiciendis, accusamus dolor ipsum velit, quaerat unde labore pariatur et quasi similique repudiandae fuga voluptas impedit quisquam est dolorem deleniti! Tempora ipsum mollitia cupiditate, officiis ea modi eos, excepturi voluptate sed error provident quam vero numquam incidunt, quis reprehenderit rerum!
-            </div>
+            <div class="text" id="keluhanUtamaAwalKepralan" style="white-space: pre-wrap;"></div>
         </div>
     </div>
 
     <div class="split2">
-        <div class="riwayatPenyakitDahulu">
+        <div class="riwayatPenyakitDahulu" style="min-width: 34% !important; max-width: 34% !important; ">
             <div class="split2">
                 <div class="text-judul"><b>Riwayat Penyakit Dahulu</b></div>
                 <div class="semicolon">:</div>
-                <div class="text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque totam quas.
-                </div>
+                <div class="text" id="rpdAwalKepralan"></div>
             </div>
         </div>
-        <div class="riwayatPenyakitDalamKeluarga" style=" padding-left: 20px;">
+        <div class="riwayatPenyakitDalamKeluarga" style=" padding-left: 20px; min-width: 34% !important; max-width: 34% !important;">
             <div class="split2">
                 <div class="text-judul"><b>Riwayat Alergi</b></div>
                 <div class="semicolon">:</div>
-                <div class="text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque totam quas.
-                </div>
+                <div class="text" id="alergiAwalKepralan"></div>
             </div>
         </div>
     </div>
     <div class="split2">
-        <div class="riwayatPenyakitDahulu">
+        <div class="riwayatPenyakitDahulu" style="min-width: 34% !important; max-width: 34% !important; ">
             <div class="split2">
-                <div class="text-judul"><b>Riwayat Penyakit Keluarga</b></div>
+                <div class="text-judul" ><b>Riwayat Penyakit Keluarga</b></div>
                 <div class="semicolon">:</div>
-                <div class="text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque totam quas.
-                </div>
+                <div class="text" id="rpkAwalKepralan"></div>
             </div>
         </div>
-        <div class="riwayatPenyakitDalamKeluarga" style=" padding-left: 20px;">
+        <div class="riwayatPenyakitDalamKeluarga" style=" padding-left: 20px; min-width: 34% !important; max-width: 34% !important;">
             <div class="split2">
                 <div class="text-judul"><b>Riwayat Pengobatan</b></div>
                 <div class="semicolon">:</div>
-                <div class="text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque totam quas.
-                </div>
+                <div class="text" id="rpoAwalKepralan"></div>
             </div>
         </div>
     </div>
@@ -113,36 +90,35 @@
             <div class="split2">
                 <div class="text-judul"><b>Alat Bantu</b></div>
                 <div class="semicolon">:</div>
-                <div class="text">
-                    Sehat.
-                </div>
+                <div class="text" id="alatBantuAwalKepralan"></div>
             </div>
         </div>
         <div class="riwayatPenyakitDalamKeluarga" style=" border: 1px solid; padding: 0.5%;">
             <div class="split2">
                 <div class="text-judul"><b>Prothesa</b></div>
                 <div class="semicolon">:</div>
-                <div class="text">
-                    Compos Mentis
-                </div>
+                <div class="text" id="prothesaAwalKepralan"></div>
             </div>
         </div>
         <div class="riwayatPenyakitDalamKeluarga" style=" border: 1px solid; padding: 0.5%;">
             <div class="split2">
                 <div class="text-judul"><b>Cacat Fisik</b></div>
                 <div class="semicolon">:</div>
-                <div class="text">
-                    15
-                </div>
+                <div class="text" id="cacatFisikAwalKepralan"></div>
             </div>
         </div>
         <div class="riwayatPenyakitDalamKeluarga" style=" border: 1px solid; padding: 0.5%;">
             <div class="split2">
                 <div class="text-judul"><b>ADL</b></div>
                 <div class="semicolon">:</div>
-                <div class="text">
-                    15
-                </div>
+                <div class="text" id="adlKepralan"></div>
+            </div>
+        </div>
+        <div class="riwayatPenyakitDalamKeluarga" style=" border: 1px solid; padding: 0.5%;">
+            <div class="split2">
+                <div class="text-judul"><b>Prothesa</b></div>
+                <div class="semicolon">:</div>
+                <div class="text" id="prothesaKepralan"></div>
             </div>
         </div>
     </div>
@@ -151,69 +127,32 @@
         <div class="split2">
             <div class="text-judul"><b>Status Psikologi</b></div>
             <div class="semicolon">:</div>
-            <div class="text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque totam quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum reiciendis, accusamus dolor ipsum velit, quaerat unde labore pariatur et quasi similique repudiandae fuga voluptas impedit quisquam est dolorem deleniti! Tempora ipsum mollitia cupiditate, officiis ea modi eos, excepturi voluptate sed error provident quam vero numquam incidunt, quis reprehenderit rerum!
-            </div>
+            <div class="text" id="statusPsikologiAwalKepralan"></div>
         </div>
     </div>
 
     <div class="keadaanUmum">
         <div class="split2">
-            <div class="text-judul"><b>Status Sosial Ekonomi</b></div>
+            <div class="text-judul"><b>Tinggal Dengan</b></div>
             <div class="semicolon">:</div>
-            <div class="text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque totam quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum reiciendis, accusamus dolor ipsum velit, quaerat unde labore pariatur et quasi similique repudiandae fuga voluptas impedit quisquam est dolorem deleniti! Tempora ipsum mollitia cupiditate, officiis ea modi eos, excepturi voluptate sed error provident quam vero numquam incidunt, quis reprehenderit rerum!
-            </div>
+            <div class="text" id="tinggalAwalKepralan"></div>
+        </div>
+    </div>
+    <div class="keadaanUmum">
+        <div class="split2">
+            <div class="text-judul"><b>Ekonomi</b></div>
+            <div class="semicolon">:</div>
+            <div class="text" id="ekonomiAwalKepRalan"></div>
         </div>
     </div>
     <div class="keadaanUmum">
         <div class="split2">
             <div class="text-judul"><b>Hubungan pasien dan anggota keluarga</b></div>
             <div class="semicolon">:</div>
-            <div class="text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque totam quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum reiciendis, accusamus dolor ipsum velit, quaerat unde labore pariatur et quasi similique repudiandae fuga voluptas impedit quisquam est dolorem deleniti! Tempora ipsum mollitia cupiditate, officiis ea modi eos, excepturi voluptate sed error provident quam vero numquam incidunt, quis reprehenderit rerum!
-            </div>
+            <div class="text" id="hubunganPasienAwalKepralan"></div>
         </div>
     </div>
 
-    <div class="split2_custom" style="display: flex; justify-content: center; ">
-        <div class="keadaanUmum" style="border: 1px solid; padding: 0.5%;">
-            <div class="split2">
-                <div class="text-judul"><b>Hubungan Pasien dengan anggota keluarga</b></div>
-                <div class="semicolon">:</div>
-                <div class="text">
-                    Sehat.
-                </div>
-            </div>
-        </div>
-        <div class="riwayatPenyakitDalamKeluarga" style=" border: 1px solid; padding: 0.5%;">
-            <div class="split2">
-                <div class="text-judul"><b>Prothesa</b></div>
-                <div class="semicolon">:</div>
-                <div class="text">
-                    Compos Mentis
-                </div>
-            </div>
-        </div>
-        <div class="riwayatPenyakitDalamKeluarga" style=" border: 1px solid; padding: 0.5%;">
-            <div class="split2">
-                <div class="text-judul"><b>Cacat Fisik</b></div>
-                <div class="semicolon">:</div>
-                <div class="text">
-                    15
-                </div>
-            </div>
-        </div>
-        <div class="riwayatPenyakitDalamKeluarga" style=" border: 1px solid; padding: 0.5%;">
-            <div class="split2">
-                <div class="text-judul"><b>ADL</b></div>
-                <div class="semicolon">:</div>
-                <div class="text">
-                    15
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Judul -->
     <div style="font-weight:bold; margin-bottom:5px; text-align: center; margin-top: 1%;">
@@ -253,13 +192,13 @@
             </td>
 
             <td style="border:1px solid #000; padding:5px; vertical-align:top; text-align:center;">
-                Tidak<br>Tidak
+                <span class="berjalan_a" id="berjalan_a_AwalKepralan"></span><br><span class="berjalan_b" id="berjalan_bAwalKepralan">
             </td>
 
             <!-- Hasil & Dilaporkan -->
             <td rowspan="2" style="border:1px solid #000; padding:5px; vertical-align:top; word-wrap:break-word; white-space:normal;">
-                Hasil : Tidak beresiko (tidak ditemukan a dan b)<br><br>
-                Dilaporkan ke dokter? Tidak
+                Hasil : <span class="hasil" id="hasilAwalKepralan"></span><br><br>
+                Dilaporkan ke dokter? <span class="lapor" id="laporAwalKepralan"></span>
             </td>
         </tr>
 
@@ -274,7 +213,7 @@
             </td>
 
             <td style="border:1px solid #000; padding:5px; text-align:center; vertical-align:top;">
-                Tidak
+                <span class="berjalan_c" id="berjalan_c_AwalKepralan"></span>
             </td>
         </tr>
 
@@ -300,7 +239,7 @@
                 Apakah ada penurunan berat badan yang tidak diinginkan selama enam bulan terakhir?
             </td>
             <td style="border:1px solid #000; padding:6px; text-align:center;">Tidak </td>
-            <td style="border:1px solid #000; padding:6px; text-align:center;">0</td>
+            <td style="border:1px solid #000; padding:6px; text-align:center;" id="nilai1AwalKepralan"></td>
         </tr>
 
         <tr>
@@ -309,14 +248,14 @@
                 Apakah nafsu makan berkurang karena tidak nafsu makan?
             </td>
             <td style="border:1px solid #000; padding:6px; text-align:center;">Tidak </td>
-            <td style="border:1px solid #000; padding:6px; text-align:center;">0</td>
+            <td style="border:1px solid #000; padding:6px; text-align:center;" id="nilai2AwalKepralan"></td>
         </tr>
 
         <tr>
             <td colspan="3" style="border:1px solid #000; padding:6px; text-align:right; font-weight:bold;">
                 Total Skor
             </td>
-            <td style="border:1px solid #000; padding:6px; text-align:center;">0</td>
+            <td style="border:1px solid #000; padding:6px; text-align:center;" id="totalAwalKepRalan"></td>
         </tr>
     </table>
 
@@ -340,20 +279,26 @@
 
             <!-- Kolom kanan berisi detail -->
             <td style="
-                                    width:60%;
-                                    border:1px solid #000;
-                                    vertical-align:top;
-                                    padding:5px;
-                                    word-wrap:break-word;
-                                    white-space:normal;
-                                    font-size:13px;
-                                    line-height:1.4;
-                                ">
-                Tidak Ada Nyeri, Penyebab : Proses Penyakit<br>
-                Kualitas : Seperti Tertusuk<br>
-                Wilayah : Lokasi, Menyebar : Tidak<br>
-                Severity : Skala Nyeri 0, Waktu / Durasi : Menit
+                width:40%;
+                border:1px solid #000;
+                vertical-align:top;
+                padding:5px;
+                word-wrap:break-word;
+                white-space:normal;
+                font-size:13px;
+                line-height:1.4;
+            ">
+                <span id="nyeriAwalKepralan"></span>, Penyebab : <span id="provokesAwalKepralan"></span><br>
+
+                Kualitas : <span class="quality" id="qualityAwalKepralan"></span><br>
+
+                Wilayah : Lokasi <span class="lokasi" id="lokasiAwalKepralan"></span>,
+                Menyebar : <span class="menyebar" id="menyebarAwalKepralan"></span><br>
+
+                Severity : Skala Nyeri <span class="skala" id="skalaAwalKepralan"></span>,
+                Waktu / Durasi : <span class="durasi" id="durasiAwalKepralan"></span>
             </td>
+
         </tr>
     </table>
 
@@ -368,7 +313,7 @@
                                     white-space:normal;
                                     font-size:13px;
                                 ">
-                Nyeri hilang bila : Istirahat
+                Nyeri hilang bila : <span class="durasi" id="nyeri_hilang"></span>
             </td>
 
             <td style="
@@ -379,7 +324,7 @@
                                     white-space:normal;
                                     font-size:13px;
                                 ">
-                Diberitahukan pada dokter? Tidak
+                Diberitahukan pada dokter? <span class="pada_dokter" id="pada_dokter"></span>
             </td>
         </tr>
     </table>
@@ -387,15 +332,11 @@
     <div class="split2">
         <div class="text-judul"><b>Masalah Keperawatan </b></div>
         <div class="semicolon">:</div>
-        <div class="text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque totam quas.
-        </div>
+        <div class="text" id="masalahKeperawatanAwalKepralan"></div>
     </div>
     <div class="split2">
         <div class="text-judul"><b>Rencana Keperawatan </b></div>
         <div class="semicolon">:</div>
-        <div class="text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque totam quas.
-        </div>
+        <div class="text" id="rencanaKeperawatanAwalKepralan"></div>
     </div>
 </div>

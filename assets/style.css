@@ -7,20 +7,27 @@
   font-weight: 800;
 }
 .user .dokterPetuags .text {
-  min-width: 116px;
-  max-width: 116px;
+  min-width: 128px;
+  max-width: 128px;
 }
 .user .dokterPetuags .semicolon {
   width: 1%;
   text-align: center;
 }
 
+.semicolon {
+  text-align: center !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
 .split2 {
   display: flex;
+  min-width: 100px;
 }
 .split2 .text-judul {
-  min-width: 120px;
-  max-width: 120px;
+  min-width: 130px;
+  max-width: 130px;
   text-wrap: wrap;
 }
 .split2 .semicolon {
@@ -31,11 +38,11 @@
 
 .split2_custom {
   display: flex;
-  flex: wrap;
+  flex: wrap !important;
 }
 .split2_custom .text-judul {
   min-width: 90px;
-  max-width: 1500px;
+  max-width: 150px !important;
   text-wrap: none;
 }
 .split2_custom .semicolon {
@@ -50,9 +57,11 @@
 }
 .split2-50 .left {
   width: 50%;
+  min-width: 50%;
 }
 .split2-50 .right {
   width: 50%;
+  min-width: 50%;
 }
 
 .container-custom {
@@ -122,6 +131,14 @@
   margin-left: 0.9%;
 }
 .container-custom .wrapper .list .keperawatanRalanUmum .wrapper {
+  width: 98%;
+  margin-left: 0.9%;
+}
+.container-custom .wrapper .list .catatanAdime .wrapper {
+  width: 98%;
+  margin-left: 0.9%;
+}
+.container-custom .wrapper .list .permintaanDiet .wrapper {
   width: 98%;
   margin-left: 0.9%;
 }/*# sourceMappingURL=style.css.map */
